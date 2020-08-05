@@ -6,8 +6,17 @@
 trigger:
 - master
 
+strategy:
+  matrix:
+    linux:
+      imageName: 'ubuntu-latest'
+    mac:
+      imageName: 'macos-latest'
+    windows:
+      imageName: 'windows-latest'
+
 pool:
-  vmImage: Ubuntu 16.04
+  vmImage: $(imageName)
 
 steps:
   - task: InstallMATLAB@0
