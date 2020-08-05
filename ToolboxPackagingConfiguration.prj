@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="C:\Users\Bob Turner\Documents\matlab-test-ci\ToolboxPackagingConfiguration.prj" location="C:\Users\Bob Turner\Documents\matlab-test-ci" name="ToolboxPackagingConfiguration" target="target.toolbox" target-name="Package Toolbox">
+  <configuration file="C:\Users\Bob Turner\Documents\matlab-test-ci\tests\..\ToolboxPackagingConfiguration.prj" location="C:\Users\Bob Turner\Documents\matlab-test-ci\tests\.." name="ToolboxPackagingConfiguration" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>matlab-test-ci</param.appname>
     <param.authnamewatermark>Bob Turner</param.authnamewatermark>
     <param.email>r.d.turner@sheffield.ac.uk</param.email>
@@ -135,7 +135,7 @@ ToolboxPackagingConfiguration.prj</param.exclude.filters>
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="matlab-test-ci.mltbx" optional="false">C:\Users\Bob Turner\Documents\matlab-test-ci\matlab-test-ci.mltbx</file>
+      <file location="${PROJECT_ROOT}" name="matlab-test-ci.mltbx" optional="false">C:\Users\Bob Turner\Documents\matlab-test-ci\tests\..\matlab-test-ci.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
