@@ -21,6 +21,7 @@ steps:
   - task: RunMATLABCommand@0
     inputs:
       command: 'matlab.addons.toolbox.packageToolbox("ToolboxPackagingConfiguration.prj")'
+    displayName: 'Build toolbox'
 
 #  - task: PublishTestResults@2
 #    condition: succeededOrFailed()
