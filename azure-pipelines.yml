@@ -18,6 +18,9 @@ steps:
   - script: |
       bash <(curl -s https://codecov.io/bash)
     displayName: 'Upload to codecov.io'
+  - task: RunMATLABCommand@0
+    inputs:
+      command: 'matlab.addons.toolbox.packageToolbox("ToolboxPackagingConfiguration.prj")'
 
 #  - task: PublishTestResults@2
 #    condition: succeededOrFailed()
