@@ -1,5 +1,7 @@
 # matlab-test-ci
 
+[![Build Status](https://dev.azure.com/bobturneruk/matlab-test-ci/_apis/build/status/bobturneruk.matlab-test-ci?branchName=master)](https://dev.azure.com/bobturneruk/matlab-test-ci/_build/latest?definitionId=1&branchName=master)
+
 ## Purpose
 
 For demonstration purposes only. This repository is intended to demonstrate 
