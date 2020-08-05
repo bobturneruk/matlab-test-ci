@@ -6,7 +6,11 @@
 trigger:
 - master
 
+pool:
+  vmImage: Ubuntu 16.04
+
 steps:
+  - task: InstallMATLAB@0
   - task: RunMATLABTests@0
     inputs:
       testResultsJUnit: test-results/results.xml
