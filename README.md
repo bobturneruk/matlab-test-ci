@@ -1,6 +1,6 @@
 # matlab-test-ci
 
-[![Build Status](https://dev.azure.com/bobturneruk/matlab-test-ci/_apis/build/status/bobturneruk.matlab-test-ci?branchName=master)](https://dev.azure.com/bobturneruk/matlab-test-ci/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/bobturneruk/matlab-test-ci/_apis/build/status/bobturneruk.matlab-test-ci?branchName=master)](https://dev.azure.com/bobturneruk/matlab-test-ci/_build/latest?definitionId=1&branchName=master) [![codecov](https://codecov.io/gh/bobturneruk/matlab-test-ci/branch/master/graph/badge.svg)](https://codecov.io/gh/bobturneruk/matlab-test-ci)
 
 ## Purpose
 
