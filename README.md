@@ -2,6 +2,11 @@
 
 [![Build Status](https://dev.azure.com/bobturneruk/matlab-test-ci/_apis/build/status/bobturneruk.matlab-test-ci?branchName=master)](https://dev.azure.com/bobturneruk/matlab-test-ci/_build/latest?definitionId=1&branchName=master) [![codecov](https://codecov.io/gh/bobturneruk/matlab-test-ci/branch/master/graph/badge.svg)](https://codecov.io/gh/bobturneruk/matlab-test-ci)
 
+## Installation
+
+1. Install matlab
+2. Clone this repository using this command `git clone https://github.com/bobturneruk/matlab-test-ci.git`
+
 ## Purpose
 
 For demonstration purposes only. This repository is intended to demonstrate 
