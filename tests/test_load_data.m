@@ -1,6 +1,6 @@
 test_data_path = fullfile("test_data", "tensile.csv");
 
-variable_names = {'BreakStrain___','BreakStress_MPa_','UltimateStress_MPa_','Modulus_MPa_','YieldStress_MPa_'};
+variable_names = {'Breaktrain___','BreakStress_MPa_','UltimateStress_MPa_','Modulus_MPa_','YieldStress_MPa_'};
 table_sums = [6881817.60000000,39989.5700000000,168566.342000000,33022.7259999997,484215.316000000];
 %table_sums.Properties.VariableNames = variable_names;
 
